@@ -19,8 +19,9 @@ After that you're read to go
 ## Usage
 on pipenv terminal, run, python main.py
 ```bash
-pipenv shell
+python main.py
 ```
+Now you can realize HTTP requests to the api (by default is localhost:5000)
 ## Future
 Probably, no further changes or updates will be made in this project, but who knows right??? Maybe add a lot of reqs for auth, logs, envs, and turn this in a real deal. WHO KNOWS????
 ## Contributing
