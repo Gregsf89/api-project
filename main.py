@@ -116,7 +116,6 @@ def upload_file():
             if Csv.query.filter_by(hash=hash).first():
                 return make_response(jsonify({'msg': 'File already exists with the given hash'}), 409)
             csv = Csv(hash, filename).create()
-
             data = pd.read_csv(
                 app.config['UPLOAD_FOLDER'] + "/" + filename, index_col=0)
             data = data.drop(columns=["currency", "rating_count_ver", "user_rating", "user_rating_ver",

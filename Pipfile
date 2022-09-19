@@ -9,8 +9,11 @@ flask-sqlalchemy = "*"
 mysql-connector-python = "*"
 mysqlclient = "*"
 flask-session = "*"
+pandas = "*"
+autopep8 = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.10"
